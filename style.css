@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background: rgb(83,23,29);
+background: linear-gradient(0deg, rgba(83,23,29,1) 0%, rgba(221,68,76,1) 100%);
+
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.main {
+    width: 100vw;
+    height: 95vh;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+div.hide {
+    transform: scale(0);
+}
+.active {
+    margin-top: 1.5%;
+    text-align: center;
+
+    width: 90%;
+}
